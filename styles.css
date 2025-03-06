@@ -1,0 +1,55 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #0056b3;
+}
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.tab {
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+.tab.active {
+    border-bottom: 2px solid #007bff;
+}
+.form-container {
+    display: none;
+}
+.form-container.active {
+    display: block;
+}
